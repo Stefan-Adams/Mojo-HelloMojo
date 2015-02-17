@@ -1,0 +1,428 @@
+[Sun Feb 15 17:35:36 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 17:35:36 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 17:35:36 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 17:35:36 2015] [debug] 200 OK (0.008815s, 113.443/s)
+[Sun Feb 15 17:52:17 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 17:52:17 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 17:52:17 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 17:52:17 2015] [debug] 200 OK (0.005854s, 170.823/s)
+[Sun Feb 15 17:52:18 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 17:52:18 2015] [debug] Rendering cached template "example/welcome.html.ep"
+[Sun Feb 15 17:52:18 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 17:52:18 2015] [debug] 200 OK (0.002575s, 388.350/s)
+[Sun Feb 15 17:53:42 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 17:53:42 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 17:53:42 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 17:53:42 2015] [debug] 200 OK (0.005542s, 180.440/s)
+[Sun Feb 15 17:53:52 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 17:53:52 2015] [debug] Rendering cached template "example/welcome.html.ep"
+[Sun Feb 15 17:53:52 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 17:53:52 2015] [debug] 200 OK (0.001728s, 578.704/s)
+[Sun Feb 15 18:07:02 2015] [debug] 200 OK (0.001164s, 859.107/s)
+[Sun Feb 15 18:11:24 2015] [debug] 304 Not Modified (0.001241s, 805.802/s)
+[Sun Feb 15 18:11:53 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome1"
+[Sun Feb 15 18:11:53 2015] [debug] Rendering template "example/welcome1.html.ep"
+[Sun Feb 15 18:11:53 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 18:11:53 2015] [debug] 200 OK (0.005403s, 185.082/s)
+[Sun Feb 15 18:11:58 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 18:11:58 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 18:11:58 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 18:11:58 2015] [debug] Rendering inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 18:11:58 2015] [debug] 404 Not Found (0.099307s, 10.070/s)
+[Sun Feb 15 18:11:59 2015] [debug] 200 OK (0.001481s, 675.219/s)
+[Sun Feb 15 18:11:59 2015] [debug] 200 OK (0.001385s, 722.022/s)
+[Sun Feb 15 18:11:59 2015] [debug] 200 OK (0.001155s, 865.801/s)
+[Sun Feb 15 18:11:59 2015] [debug] 200 OK (0.001061s, 942.507/s)
+[Sun Feb 15 18:11:59 2015] [debug] 200 OK (0.000943s, 1060.445/s)
+[Sun Feb 15 18:11:59 2015] [debug] 200 OK (0.001498s, 667.557/s)
+[Sun Feb 15 18:12:32 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome1"
+[Sun Feb 15 18:12:32 2015] [debug] Rendering template "example/welcome1.html.ep"
+[Sun Feb 15 18:12:32 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 18:12:32 2015] [debug] 200 OK (0.008424s, 118.708/s)
+[Sun Feb 15 18:12:35 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:12:35 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 18:12:35 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 18:12:35 2015] [debug] 200 OK (0.005440s, 183.824/s)
+[Sun Feb 15 18:13:11 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:13:11 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 18:13:11 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 18:13:11 2015] [debug] 200 OK (0.008586s, 116.469/s)
+[Sun Feb 15 18:13:14 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:13:14 2015] [debug] Rendering cached template "example/welcome.html.ep"
+[Sun Feb 15 18:13:14 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 18:13:14 2015] [debug] 200 OK (0.003285s, 304.414/s)
+[Sun Feb 15 18:13:16 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome1"
+[Sun Feb 15 18:13:16 2015] [debug] Rendering template "example/welcome1.html.ep"
+[Sun Feb 15 18:13:16 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 18:13:16 2015] [debug] 200 OK (0.003430s, 291.545/s)
+[Sun Feb 15 18:13:20 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:13:20 2015] [debug] Rendering cached template "example/welcome.html.ep"
+[Sun Feb 15 18:13:20 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 18:13:20 2015] [debug] 200 OK (0.002449s, 408.330/s)
+[Sun Feb 15 18:25:26 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:25:26 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 18:25:26 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 18:25:26 2015] [debug] 200 OK (0.005679s, 176.087/s)
+[Sun Feb 15 18:27:39 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:27:39 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 18:27:39 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 18:27:39 2015] [debug] 200 OK (0.006170s, 162.075/s)
+[Sun Feb 15 18:28:15 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:28:15 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 18:28:15 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 18:28:15 2015] [debug] 200 OK (0.006890s, 145.138/s)
+[Sun Feb 15 18:28:59 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:28:59 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 18:28:59 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 18:28:59 2015] [debug] 200 OK (0.005580s, 179.211/s)
+[Sun Feb 15 18:36:15 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:36:15 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 18:36:15 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 18:36:15 2015] [debug] 200 OK (0.007262s, 137.703/s)
+[Sun Feb 15 18:36:34 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome1"
+[Sun Feb 15 18:36:34 2015] [debug] Rendering template "example/welcome1.html.ep"
+[Sun Feb 15 18:36:34 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 18:36:34 2015] [debug] 200 OK (0.005716s, 174.948/s)
+[Sun Feb 15 18:36:39 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:36:39 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 18:36:39 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 18:36:39 2015] [debug] 200 OK (0.005547s, 180.278/s)
+[Sun Feb 15 18:45:42 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:45:42 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 18:45:42 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 18:45:42 2015] [debug] 200 OK (0.006251s, 159.974/s)
+[Sun Feb 15 18:45:46 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome1"
+[Sun Feb 15 18:45:46 2015] [debug] Rendering template "example/welcome1.html.ep"
+[Sun Feb 15 18:45:46 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 18:45:46 2015] [debug] 200 OK (0.003788s, 263.992/s)
+[Sun Feb 15 18:45:47 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:45:47 2015] [debug] Rendering cached template "example/welcome.html.ep"
+[Sun Feb 15 18:45:47 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 18:45:47 2015] [debug] 200 OK (0.003291s, 303.859/s)
+[Sun Feb 15 18:46:25 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:46:25 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 18:46:25 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 18:46:25 2015] [debug] 200 OK (0.009487s, 105.407/s)
+[Sun Feb 15 18:46:26 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome1"
+[Sun Feb 15 18:46:26 2015] [debug] Rendering template "example/welcome1.html.ep"
+[Sun Feb 15 18:46:26 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 18:46:26 2015] [debug] 200 OK (0.003615s, 276.625/s)
+[Sun Feb 15 18:46:46 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:46:46 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 18:46:46 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 18:46:46 2015] [debug] 200 OK (0.005352s, 186.846/s)
+[Sun Feb 15 18:46:47 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:46:47 2015] [debug] Rendering cached template "example/welcome.html.ep"
+[Sun Feb 15 18:46:47 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 18:46:47 2015] [debug] 200 OK (0.001990s, 502.513/s)
+[Sun Feb 15 18:50:05 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:50:05 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 18:50:05 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 18:50:05 2015] [debug] 200 OK (0.006409s, 156.031/s)
+[Sun Feb 15 18:50:29 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:50:29 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 18:50:29 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 18:50:29 2015] [debug] 200 OK (0.005198s, 192.382/s)
+[Sun Feb 15 18:51:19 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:51:19 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 18:51:19 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 18:51:19 2015] [debug] 200 OK (0.005597s, 178.667/s)
+[Sun Feb 15 18:51:39 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:51:39 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 18:51:39 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 18:51:39 2015] [debug] 200 OK (0.005594s, 178.763/s)
+[Sun Feb 15 18:52:51 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:52:51 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 18:52:51 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 18:52:51 2015] [debug] 200 OK (0.008956s, 111.657/s)
+[Sun Feb 15 18:55:18 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 18:55:18 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 18:55:18 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 18:55:18 2015] [debug] 200 OK (0.008166s, 122.459/s)
+[Sun Feb 15 19:00:42 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 19:00:42 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 19:00:42 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 19:00:42 2015] [debug] 200 OK (0.008735s, 114.482/s)
+[Sun Feb 15 19:00:53 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 19:00:53 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 19:00:53 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 19:00:53 2015] [debug] 200 OK (0.006199s, 161.316/s)
+[Sun Feb 15 19:00:54 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome1"
+[Sun Feb 15 19:00:54 2015] [debug] Rendering template "example/welcome1.html.ep"
+[Sun Feb 15 19:00:54 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 19:00:54 2015] [debug] 200 OK (0.003126s, 319.898/s)
+[Sun Feb 15 19:00:55 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:00:55 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:00:55 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:00:55 2015] [debug] Rendering inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:00:55 2015] [debug] 404 Not Found (0.097103s, 10.298/s)
+[Sun Feb 15 19:00:59 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:00:59 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:00:59 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:00:59 2015] [debug] Rendering cached inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:00:59 2015] [debug] 404 Not Found (0.042319s, 23.630/s)
+[Sun Feb 15 19:01:02 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 19:01:02 2015] [debug] Rendering cached template "example/welcome.html.ep"
+[Sun Feb 15 19:01:02 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 19:01:02 2015] [debug] 200 OK (0.003551s, 281.611/s)
+[Sun Feb 15 19:03:48 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:03:48 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:03:48 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:03:48 2015] [debug] Rendering inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:03:48 2015] [debug] 404 Not Found (0.079828s, 12.527/s)
+[Sun Feb 15 19:03:51 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:03:51 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:03:51 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:03:51 2015] [debug] Rendering cached inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:03:52 2015] [debug] 404 Not Found (0.037669s, 26.547/s)
+[Sun Feb 15 19:03:52 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:03:52 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:03:52 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:03:52 2015] [debug] Rendering cached inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:03:52 2015] [debug] 404 Not Found (0.039857s, 25.090/s)
+[Sun Feb 15 19:03:52 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:03:52 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:03:52 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:03:52 2015] [debug] Rendering cached inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:03:52 2015] [debug] 404 Not Found (0.036141s, 27.669/s)
+[Sun Feb 15 19:03:52 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:03:52 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:03:52 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:03:52 2015] [debug] Rendering cached inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:03:52 2015] [debug] 404 Not Found (0.034576s, 28.922/s)
+[Sun Feb 15 19:03:52 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:03:52 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:03:52 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:03:52 2015] [debug] Rendering cached inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:03:52 2015] [debug] 404 Not Found (0.034659s, 28.853/s)
+[Sun Feb 15 19:03:52 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:03:52 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:03:52 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:03:52 2015] [debug] Rendering cached inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:03:52 2015] [debug] 404 Not Found (0.042146s, 23.727/s)
+[Sun Feb 15 19:03:52 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:03:52 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:03:52 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:03:52 2015] [debug] Rendering cached inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:03:52 2015] [debug] 404 Not Found (0.043556s, 22.959/s)
+[Sun Feb 15 19:06:25 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:06:25 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:06:25 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:06:25 2015] [debug] Rendering inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:06:25 2015] [debug] 404 Not Found (0.084803s, 11.792/s)
+[Sun Feb 15 19:06:25 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:06:25 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:06:25 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:06:25 2015] [debug] Rendering cached inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:06:25 2015] [debug] 404 Not Found (0.069984s, 14.289/s)
+[Sun Feb 15 19:06:25 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:06:25 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:06:25 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:06:25 2015] [debug] Rendering cached inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:06:25 2015] [debug] 404 Not Found (0.052947s, 18.887/s)
+[Sun Feb 15 19:06:25 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:06:25 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:06:25 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:06:25 2015] [debug] Rendering cached inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:06:25 2015] [debug] 404 Not Found (0.063804s, 15.673/s)
+[Sun Feb 15 19:06:25 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:06:25 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:06:25 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:06:25 2015] [debug] Rendering cached inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:06:25 2015] [debug] 404 Not Found (0.052944s, 18.888/s)
+[Sun Feb 15 19:06:25 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:06:25 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:06:25 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:06:25 2015] [debug] Rendering cached inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:06:25 2015] [debug] 404 Not Found (0.042693s, 23.423/s)
+[Sun Feb 15 19:06:25 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:06:25 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:06:25 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:06:25 2015] [debug] Rendering cached inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:06:25 2015] [debug] 404 Not Found (0.039159s, 25.537/s)
+[Sun Feb 15 19:06:59 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:06:59 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:06:59 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:06:59 2015] [debug] Rendering inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:06:59 2015] [debug] 404 Not Found (0.056147s, 17.810/s)
+[Sun Feb 15 19:06:59 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:06:59 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:06:59 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:06:59 2015] [debug] Rendering cached inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:06:59 2015] [debug] 404 Not Found (0.038801s, 25.773/s)
+[Sun Feb 15 19:06:59 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:06:59 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:06:59 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:06:59 2015] [debug] Rendering cached inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:06:59 2015] [debug] 404 Not Found (0.033972s, 29.436/s)
+[Sun Feb 15 19:06:59 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:06:59 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:06:59 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:06:59 2015] [debug] Rendering cached inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:07:00 2015] [debug] 404 Not Found (0.033952s, 29.453/s)
+[Sun Feb 15 19:07:00 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:07:00 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:07:00 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:07:00 2015] [debug] Rendering cached inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:07:00 2015] [debug] 404 Not Found (0.036950s, 27.064/s)
+[Sun Feb 15 19:07:00 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:07:00 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:07:00 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:07:00 2015] [debug] Rendering cached inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:07:00 2015] [debug] 404 Not Found (0.041284s, 24.222/s)
+[Sun Feb 15 19:07:00 2015] [debug] Template "not_found.development.html.ep" not found
+[Sun Feb 15 19:07:00 2015] [debug] Template "not_found.html.ep" not found
+[Sun Feb 15 19:07:00 2015] [debug] Rendering cached inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:07:00 2015] [debug] Rendering cached inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:07:00 2015] [debug] 404 Not Found (0.036972s, 27.047/s)
+[Sun Feb 15 19:08:22 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 19:08:22 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 19:08:22 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 19:08:22 2015] [debug] 200 OK (0.005373s, 186.116/s)
+[Sun Feb 15 19:08:27 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 19:08:27 2015] [debug] Rendering cached template "example/welcome.html.ep"
+[Sun Feb 15 19:08:27 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 19:08:27 2015] [debug] 200 OK (0.002843s, 351.741/s)
+[Sun Feb 15 19:08:30 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome1"
+[Sun Feb 15 19:08:30 2015] [debug] Rendering template "example/welcome1.html.ep"
+[Sun Feb 15 19:08:30 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 19:08:30 2015] [debug] 200 OK (0.005879s, 170.097/s)
+[Sun Feb 15 19:09:16 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome1"
+[Sun Feb 15 19:09:16 2015] [debug] Rendering template "example/welcome1.html.ep"
+[Sun Feb 15 19:09:16 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 19:09:16 2015] [debug] 200 OK (0.009104s, 109.842/s)
+[Sun Feb 15 19:10:43 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome1"
+[Sun Feb 15 19:10:43 2015] [debug] Rendering template "example/welcome1.html.ep"
+[Sun Feb 15 19:10:43 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 19:10:43 2015] [debug] 200 OK (0.008324s, 120.135/s)
+[Sun Feb 15 19:10:47 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 19:10:47 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 19:10:47 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 19:10:47 2015] [debug] 200 OK (0.005555s, 180.018/s)
+[Sun Feb 15 19:10:52 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 19:10:52 2015] [debug] Rendering cached template "example/welcome.html.ep"
+[Sun Feb 15 19:10:52 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 19:10:52 2015] [debug] 200 OK (0.002037s, 490.918/s)
+[Sun Feb 15 19:10:54 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 19:10:54 2015] [debug] Rendering cached template "example/welcome.html.ep"
+[Sun Feb 15 19:10:54 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 19:10:54 2015] [debug] 200 OK (0.002662s, 375.657/s)
+[Sun Feb 15 19:11:10 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome1"
+[Sun Feb 15 19:11:10 2015] [debug] Rendering cached template "example/welcome1.html.ep"
+[Sun Feb 15 19:11:10 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 19:11:10 2015] [debug] 200 OK (0.001990s, 502.513/s)
+[Sun Feb 15 19:11:17 2015] [debug] 200 OK (0.001355s, 738.007/s)
+[Sun Feb 15 19:13:37 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 19:13:37 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 19:13:37 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 19:13:37 2015] [debug] 200 OK (0.006562s, 152.393/s)
+[Sun Feb 15 19:13:40 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 19:13:40 2015] [debug] Rendering cached template "example/welcome.html.ep"
+[Sun Feb 15 19:13:40 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 19:13:40 2015] [debug] 200 OK (0.003556s, 281.215/s)
+[Sun Feb 15 19:13:43 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome1"
+[Sun Feb 15 19:13:43 2015] [debug] Rendering template "example/welcome1.html.ep"
+[Sun Feb 15 19:13:43 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 19:13:43 2015] [debug] 200 OK (0.007760s, 128.866/s)
+[Sun Feb 15 19:17:14 2015] [error] Global symbol "$c" requires explicit package name at /home/stefan/mojo_apps/my_app/script/../lib/MyApp/Controller/Example.pm line 8, <DATA> line 28.
+Compilation failed in require at (eval 268) line 1, <DATA> line 28.
+
+[Sun Feb 15 19:17:14 2015] [debug] Template "exception.development.html.ep" not found
+[Sun Feb 15 19:17:14 2015] [debug] Template "exception.html.ep" not found
+[Sun Feb 15 19:17:14 2015] [debug] Rendering inline template "64a586e608c51bbacaabb753ef57cd19"
+[Sun Feb 15 19:17:14 2015] [debug] Rendering inline template "3fd40a7de5d756c14ace23fe28dcd834"
+[Sun Feb 15 19:17:14 2015] [debug] 500 Internal Server Error (0.099865s, 10.014/s)
+[Sun Feb 15 19:17:14 2015] [debug] 200 OK (0.000968s, 1033.058/s)
+[Sun Feb 15 19:17:14 2015] [debug] 200 OK (0.000960s, 1041.667/s)
+[Sun Feb 15 19:17:14 2015] [debug] 200 OK (0.000685s, 1459.854/s)
+[Sun Feb 15 19:17:14 2015] [debug] 200 OK (0.000608s, 1644.737/s)
+[Sun Feb 15 19:17:15 2015] [debug] 200 OK (0.000881s, 1135.074/s)
+[Sun Feb 15 19:17:15 2015] [debug] 200 OK (0.000851s, 1175.088/s)
+[Sun Feb 15 19:17:15 2015] [debug] 200 OK (0.000871s, 1148.106/s)
+[Sun Feb 15 19:17:29 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome1"
+[Sun Feb 15 19:17:29 2015] [debug] Rendering template "example/welcome1.html.ep"
+[Sun Feb 15 19:17:29 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 19:17:29 2015] [debug] 200 OK (0.005251s, 190.440/s)
+[Sun Feb 15 19:17:46 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 19:17:46 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 19:17:46 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 19:17:46 2015] [debug] 200 OK (0.005696s, 175.562/s)
+[Sun Feb 15 20:07:39 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 20:07:39 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 20:07:39 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 20:07:39 2015] [debug] 200 OK (0.010250s, 97.561/s)
+[Sun Feb 15 20:07:42 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 20:07:42 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 20:07:42 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 20:07:42 2015] [debug] 200 OK (0.005975s, 167.364/s)
+[Sun Feb 15 20:26:24 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 20:26:24 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 20:26:24 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 20:26:24 2015] [debug] 200 OK (0.007213s, 138.639/s)
+[Sun Feb 15 20:26:27 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 20:26:27 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 20:26:27 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 20:26:27 2015] [debug] 200 OK (0.007825s, 127.796/s)
+[Sun Feb 15 20:59:10 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 20:59:10 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 20:59:10 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 20:59:10 2015] [debug] 200 OK (0.006263s, 159.668/s)
+[Sun Feb 15 21:08:50 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 21:08:50 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 21:08:50 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 21:08:50 2015] [debug] 200 OK (0.009339s, 107.078/s)
+[Sun Feb 15 21:08:54 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 21:08:54 2015] [debug] Rendering cached template "example/welcome.html.ep"
+[Sun Feb 15 21:08:54 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Sun Feb 15 21:08:54 2015] [debug] 200 OK (0.003081s, 324.570/s)
+[Sun Feb 15 21:08:57 2015] [debug] 304 Not Modified (0.000999s, 1001.001/s)
+[Sun Feb 15 21:12:30 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Sun Feb 15 21:12:30 2015] [debug] Rendering template "example/welcome.html.ep"
+[Sun Feb 15 21:12:30 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 21:12:30 2015] [debug] 200 OK (0.006485s, 154.202/s)
+[Sun Feb 15 21:12:45 2015] [debug] 200 OK (0.001121s, 892.061/s)
+[Sun Feb 15 21:12:52 2015] [debug] 304 Not Modified (0.000872s, 1146.789/s)
+[Mon Feb 16 00:35:27 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Mon Feb 16 00:35:27 2015] [debug] Rendering template "example/welcome.html.ep"
+[Mon Feb 16 00:35:27 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Feb 16 00:35:27 2015] [debug] 200 OK (0.004832s, 206.954/s)
+[Mon Feb 16 00:35:48 2015] [debug] 304 Not Modified (0.001212s, 825.083/s)
+[Mon Feb 16 00:35:54 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Mon Feb 16 00:35:54 2015] [debug] Rendering template "example/welcome.html.ep"
+[Mon Feb 16 00:35:54 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Feb 16 00:35:54 2015] [debug] 200 OK (0.005085s, 196.657/s)
+[Mon Feb 16 00:35:56 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Mon Feb 16 00:35:56 2015] [debug] Rendering cached template "example/welcome.html.ep"
+[Mon Feb 16 00:35:56 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Feb 16 00:35:56 2015] [debug] 200 OK (0.001805s, 554.017/s)
+[Mon Feb 16 00:36:26 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Mon Feb 16 00:36:26 2015] [debug] Rendering template "example/welcome.html.ep"
+[Mon Feb 16 00:36:26 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Feb 16 00:36:26 2015] [debug] 200 OK (0.005132s, 194.856/s)
+[Mon Feb 16 01:57:56 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Mon Feb 16 01:57:56 2015] [debug] Rendering template "example/welcome.html.ep"
+[Mon Feb 16 01:57:56 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Feb 16 01:57:56 2015] [debug] 200 OK (0.005413s, 184.740/s)
+[Mon Feb 16 01:57:58 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Mon Feb 16 01:57:58 2015] [debug] Rendering cached template "example/welcome.html.ep"
+[Mon Feb 16 01:57:58 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Feb 16 01:57:58 2015] [debug] 200 OK (0.002545s, 392.927/s)
+[Mon Feb 16 01:57:59 2015] [debug] 304 Not Modified (0.001838s, 544.070/s)
+[Mon Feb 16 02:06:46 2015] [debug] 200 OK (0.001376s, 726.744/s)
+[Mon Feb 16 02:06:52 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Mon Feb 16 02:06:52 2015] [debug] Rendering template "example/welcome.html.ep"
+[Mon Feb 16 02:06:52 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Feb 16 02:06:52 2015] [debug] 200 OK (0.005424s, 184.366/s)
+[Mon Feb 16 02:06:54 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Mon Feb 16 02:06:54 2015] [debug] Rendering cached template "example/welcome.html.ep"
+[Mon Feb 16 02:06:54 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Feb 16 02:06:54 2015] [debug] 200 OK (0.002041s, 489.956/s)
+[Mon Feb 16 02:38:32 2015] [debug] 304 Not Modified (0.001922s, 520.291/s)
+[Mon Feb 16 02:38:38 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Mon Feb 16 02:38:38 2015] [debug] Rendering template "example/welcome.html.ep"
+[Mon Feb 16 02:38:38 2015] [debug] Rendering template "layouts/default.html.ep"
+[Mon Feb 16 02:38:38 2015] [debug] 200 OK (0.013094s, 76.371/s)
+[Mon Feb 16 02:38:40 2015] [debug] Routing to controller "MyApp::Controller::Example" and action "welcome"
+[Mon Feb 16 02:38:40 2015] [debug] Rendering cached template "example/welcome.html.ep"
+[Mon Feb 16 02:38:40 2015] [debug] Rendering cached template "layouts/default.html.ep"
+[Mon Feb 16 02:38:40 2015] [debug] 200 OK (0.002017s, 495.786/s)

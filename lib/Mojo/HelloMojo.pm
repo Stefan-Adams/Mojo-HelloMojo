@@ -1,29 +1,28 @@
 package Mojo::HelloMojo;
 use Mojolicious::Lite;
 
-our $VERSION  = '0.01';
+our $VERSION  = '0.02';
 
 use Cwd;
 
-app->home(Mojo::Home->new(getcwd));
 app->moniker(Mojo::Util::decamelize(app->moniker));
 
 plugin 'Config' => {default => {hello_mojo => ['hello_mojo']}};
 
-foreach my $app_dir ( split(/,/, $ENV{HELLO_MOJO}||'') || @{app->config->{hello_mojo}} ) {
-  opendir(my $dh, app->home->rel_dir($app_dir)) or next;
+foreach my $app_dir ( $ENV{HELLO_MOJO} ? split /:/, $ENV{HELLO_MOJO} : @{app->config->{hello_mojo}} ) {
+  $app_dir = Mojo::Path->new($app_dir)->leading_slash ? Mojo::Home->new($app_dir) : Mojo::Home->new(Mojo::Path->new(getcwd)->trailing_slash(1)->merge($app_dir));
+  opendir(my $dh, $app_dir) or next;
   foreach ( grep { !/^\./ } readdir($dh) ) {
     my $app;
-
     # Create a directory by the name of your lite_app
     # Change to that directory, then generate your lite_app by the same name
-    $app = app->home->rel_file("$app_dir/$_/$_.pl");
-    $app = app->home->rel_file("$app_dir/$_/$_") unless $app && -f $app;
+    $app = $app_dir->rel_file("$_/$_.pl");
+    $app = $app_dir->rel_file("$_/$_") unless $app && -f $app;
 
-    $app = app->home->rel_file("$app_dir/$_/script/$_") unless $app && -f $app;
-    $app = app->home->rel_file("$app_dir/$_/script/$_.pl") unless $app && -f $app;
+    $app = $app_dir->rel_file("$_/script/$_") unless $app && -f $app;
+    $app = $app_dir->rel_file("$_/script/$_.pl") unless $app && -f $app;
 
-    if ( -f "$app_dir/$_/.nomojo" ) {
+    if ( -f $app_dir->rel_file("$_/.nomojo") ) {
       app->log->info("No Mojo for $app, skipping");
     } elsif ( $app && -f $app ) {
       plugin Mount => {"/$_" => $app};
