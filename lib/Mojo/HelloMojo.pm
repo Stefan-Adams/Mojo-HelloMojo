@@ -7,7 +7,7 @@ use Cwd;
 
 app->moniker(Mojo::Util::decamelize(app->moniker));
 
-plugin 'Config' => {default => {hello_mojo => ['hello_mojo']}};
+plugin 'Config' => {default => {hello_mojo => ['.']}};
 
 foreach my $app_dir ( $ENV{HELLO_MOJO} ? split /:/, $ENV{HELLO_MOJO} : @{app->config->{hello_mojo}} ) {
   $app_dir = Mojo::Path->new($app_dir)->leading_slash ? Mojo::Home->new($app_dir) : Mojo::Home->new(Mojo::Path->new(getcwd)->trailing_slash(1)->merge($app_dir));
