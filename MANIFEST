@@ -1,0 +1,17 @@
+Changes
+conf/hello_mojo.conf
+lib/Mojo/HelloMojo.pm
+Makefile.PL
+MANIFEST			This list of files
+script/hello_mojo
+t/basic.t
+t/hello_mojo/my_app/lib/MyApp.pm
+t/hello_mojo/my_app/lib/MyApp/Controller/Example.pm
+t/hello_mojo/my_app/log/development.log
+t/hello_mojo/my_app/public/index.html
+t/hello_mojo/my_app/script/my_app
+t/hello_mojo/my_app/t/basic.t
+t/hello_mojo/my_app/templates/example/welcome.html.ep
+t/hello_mojo/my_app/templates/layouts/default.html.ep
+t/hello_mojo/myapp/myapp.pl
+upstart/init/hello_mojo.conf
