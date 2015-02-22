@@ -1,5 +1,7 @@
 0.03  2015-02-17
   - changed default path
+  - more variety in script detection
+  - mount to domain specified in app config
 
 0.02  2015-02-17
   - add support for full pathes

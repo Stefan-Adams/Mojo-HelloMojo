@@ -10,6 +10,6 @@ WriteMakefile(
   AUTHOR       => 'Stefan Adams <stefan@borgia.com>',
   LICENSE      => 'artistic_2',
   EXE_FILES    => ['script/hello_mojo'],
-  PREREQ_PM    => {'Mojolicious' => '5.00'},
+  PREREQ_PM    => {'Mojolicious' => '5.80'},
   test         => {TESTS => 't/*.t'}
 );

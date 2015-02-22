@@ -13,25 +13,37 @@ foreach my $app_dir ( $ENV{HELLO_MOJO} ? split /:/, $ENV{HELLO_MOJO} : @{app->co
   $app_dir = Mojo::Path->new($app_dir)->leading_slash ? Mojo::Home->new($app_dir) : Mojo::Home->new(Mojo::Path->new(getcwd)->trailing_slash(1)->merge($app_dir));
   opendir(my $dh, $app_dir) or next;
   foreach ( grep { !/^\./ } readdir($dh) ) {
-    my $app;
-    # Create a directory by the name of your lite_app
-    # Change to that directory, then generate your lite_app by the same name
-    $app = $app_dir->rel_file("$_/$_.pl");
-    $app = $app_dir->rel_file("$_/$_") unless $app && -f $app;
-
-    $app = $app_dir->rel_file("$_/script/$_") unless $app && -f $app;
-    $app = $app_dir->rel_file("$_/script/$_.pl") unless $app && -f $app;
-
+    my $app = find_script($app_dir => $_);
     if ( -f $app_dir->rel_file("$_/.nomojo") ) {
       app->log->info("No Mojo for $app, skipping");
     } elsif ( $app && -f $app ) {
-      plugin Mount => {"/$_" => $app};
+      my $mount = plugin Mount => {"/$_" => $app};
       app->log->info("Mounted /$_ => $app");
+      if ( my $domain = $mount->pattern->defaults->{app}->config('domain') ) {
+        foreach my $d ( ref $domain eq 'ARRAY' ? @$domain : $domain ) {
+          my $mount = plugin Mount => {$d => $app};
+          app->log->info("Mounted $d => $app");
+        }
+      }
     } else {
       app->log->info("No start script found for $app, skipping");
     }
   }
   closedir $dh;
+}
+
+sub find_script {
+  my ($app_dir, $app_name) = @_;
+  my $dashes = my $us = $app_name;
+  $dashes =~ s/_/-/g;
+  $us =~ s/-/_/g;
+  my $app;
+  foreach ( $app_name, $dashes, $us ) {
+    $app = $app_dir->rel_file("$app_name/$_.pl") and -f $app and return $app;
+    $app = $app_dir->rel_file("$app_name/$_") and -f $app and return $app;
+    $app = $app_dir->rel_file("$app_name/script/$_") and -f $app and return $app;
+    $app = $app_dir->rel_file("$app_name/script/$_.pl") and -f $app and return $app;
+  }
 }
 
 1;
